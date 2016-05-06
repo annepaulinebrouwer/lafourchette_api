@@ -152,6 +152,10 @@ GEM
     simple_form (3.2.1)
       actionpack (> 4, < 5.1)
       activemodel (> 4, < 5.1)
+    simple_token_authentication (1.13.0)
+      actionmailer (>= 3.2.6, < 5)
+      actionpack (>= 3.2.6, < 5)
+      devise (>= 3.2, < 5)
     slop (3.6.0)
     spring (1.7.1)
     sprockets (3.6.0)
@@ -195,6 +199,7 @@ DEPENDENCIES
   redis
   sass-rails
   simple_form
+  simple_token_authentication
   spring
   uglifier
 
